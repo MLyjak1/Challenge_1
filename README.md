@@ -35,7 +35,7 @@ To be Added
 
 * Horiseon Social Solution Services, Inc. - Copyright 2019
 * Source Code provided by Heart Industries. A subsidiary of Horiseon Social Solution Services.
-* TM 6/15/22
+* TM 6/17/22
 
 ## Version Information:
 
@@ -57,7 +57,7 @@ To be Added
     *Changed <section class=*> to relevant element identifiers
     *Added <Figure> around main image "Hero"
 
-**0.2 Search Engine Optimization and site flow**
+**0.2 Search Engine Optimization and Site Flow**
     
     *Added <alt> tags to images in <Main>
     *Added <alt> tags to icons in <aside>
@@ -66,3 +66,24 @@ To be Added
     *Changed <divs> within <aside> to <sections>
     *Added hover functionality to <header> links
     *Links in <header> now direct to sections in <main>
+
+**0.3 CSS Clean-up and Optimization**
+
+    *Added reset.css as industry standard
+    *Added "seo" class and <span> back in to HTML code
+        *Made color of "seo" darker for better contrastmaintaing visibility standards
+    *Header Modifications:
+        *Removed .header div ul - Redundant
+        *Removed p{font-size} - Unnessecary
+    *Main Modifications:
+        *Moved <main> elements in style.css above <aside> elements to math HTML
+        *Consolidated #content <IDs> into .content section <class>
+        *Consolidated #content-<IDs> img into .content img <class>
+        *Consolidated #content<IDs> h2 into .content h2 <class>
+    *Aside Modifications:
+        *Removed color:white from #benefit-<IDs> and placed in .benefit<Class>
+        *Consolidated #benefit-<IDs> for margin spacing to .benefits section <class>
+        *Consolidated #benefit-<IDs> h3 to single command under .benefits h3 <class>
+            *Added font-size:25 px to h3 for industry standard decreasing header sizes
+        *Consolidated #benefit-<IDs> img to single command under .benefits img <class>
+        
