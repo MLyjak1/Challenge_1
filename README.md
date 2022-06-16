@@ -86,4 +86,9 @@ To be Added
         *Consolidated #benefit-<IDs> h3 to single command under .benefits h3 <class>
             *Added font-size:25 px to h3 for industry standard decreasing header sizes
         *Consolidated #benefit-<IDs> img to single command under .benefits img <class>
-        
+
+**0.4 Accessibility Modifications and Title Tag Additions**
+
+    *Added Titles to Images in Content Section
+    *Added Titles to Icons in Benefit Section
+    *Contrast of Benefit Section was not acceptable for Industry Standards, modified background color to the same as Content Section
