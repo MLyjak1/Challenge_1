@@ -52,4 +52,8 @@ To be Added
     *Changed <div class="benefits"> to <section class="benefits">
     *Changed <div class="footer"> to <section class="footer">
     
+**0.11 - Second Pass of HTML Code Changelog:**
 
+    *Changed <section class=*> to relevant element identifiers
+    *Added <Figure> around main image "Hero"
+    
