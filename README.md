@@ -56,4 +56,13 @@ To be Added
 
     *Changed <section class=*> to relevant element identifiers
     *Added <Figure> around main image "Hero"
+
+**0.2 Search Engine Optimization and site flow**
     
+    *Added <alt> tags to images in <Main>
+    *Added <alt> tags to icons in <aside>
+    *Changed <divs> within <main> to <sections>
+    *Removed extra un-used <IDs> from <main> <sections>
+    *Changed <divs> within <aside> to <sections>
+    *Added hover functionality to <header> links
+    *Links in <header> now direct to sections in <main>
