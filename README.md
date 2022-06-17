@@ -21,15 +21,29 @@ Horiseon has requested that their website be refactored according to Industry St
 
 ## Description:
 
-To be Added
+https://mlyjak1.github.io/Challenge_1/
+
+The Website is made up of 3 Main Parts: The Header, Content Blocks, and a Sidebar.
+
+The Header contains the company name on a blue background with 3 internal-page links in the top right corner.  These links are set to turn black if moused-over and will direct to the internal Content Cards when clicked.  They will also condense to a vertical list if the width of the screen is too narrow.
+
+The Main Content is found in 3 blocks on the left extending to the middle of the page.  They all have the same fonts and header attributes.
+
+The sidebar has additional information for potential clients.  The block is set to be the same height as the combined main content blocks, and the text will shrink when the screen gets too small to accomodate it's regular size
+
+Everything on the page is keyboard-selectable with the exception of the main image.  All text can be read via a screen reader that will also read the alt text behind any selectable image.  Every image except the main image has a title that will pop-up if moused over.  The alt captions were selected specifically to enhance SEO results and adhere to accessibility guidelines.  
+
+![](assets/pictures/Horiseon%20Screenshot%20Mobile.png)
+
 
 ## Instructions for Future Developers:
 
-To be Added
+Many of the individual blocks have identical attibutes.  To simplify the code, these attributes were all assigned to the blocks in their respective groups.  Each block or section is still identified by a specific ID for future changes if necessary.  The links at the top are currently internal, but may be used in the future to direct users to additional pages as they are added.
 
 ## Known Bugs:
 
-To be Added
+This page has not been formatted for printing.
+
 
 ## License Information:
 
@@ -123,15 +137,20 @@ To be Added
     *Broke all image links to make sure alt text was showing up correctly
 
 **0.8 Check against Employer Requirements (Beta)**
-	    *Acessibility Standards
-	    *Semantic HTML Elements
-	    *Elements Follow Logical Structure
-	    *Accessible alt Attributes
-	    *Heading Attributes in sequential order
-	    *Concise, Descriptive Titles
-	    *Links Funtion
-	    *CSS Selectors and Properties Consolidated and Organized
-	    *CSS File Properly Commented
-	    *Descriptive Commit Messages
-	    *README.md includes description screenshot and link to deployed application
+	    *Acessibility Standards+
+	    *Semantic HTML Elements+
+	    *Elements Follow Logical Structure+
+	    *Accessible alt Attributes+
+	    *Heading Attributes in sequential order+
+	    *Concise, Descriptive Titles+
+	    *Links Funtion+
+	    *CSS Selectors and Properties Consolidated and Organized+
+	    *CSS File Properly Commented+
+	    *Descriptive Commit Messages+
+	    *README.md includes description, screenshot, and link to deployed application
         *Changed hero height to 100em
+
+**0.9 (Reserved)**
+    If Microsoft can skip 9, I can too.
+
+**1.0 Initial Release**
