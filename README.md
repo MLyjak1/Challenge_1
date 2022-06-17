@@ -94,6 +94,7 @@ To be Added
     *Contrast of Benefit Section was not acceptable for Industry Standards, modified background color to the same as Content Section
 
 **0.5 Media Query and Mobile Optimization Changelog:**
+
     *Tested website at various widths
         *Issue found with .header links and .benefits container
     *Added Media Query for .header div ul li element to be vertical when under 1020 pixel width
@@ -101,7 +102,8 @@ To be Added
     *Changed .benefits height to static 940px to match .content height
     *Added Media Query for .benefits element to make text smaller to fit inside container
 
-**V0.6 Screen Reader Testing**
+**V0.6 Screen Reader Testing Changelog:**
+
     *Tested with Google Chrome Screen Reader Extension
         *Added periods between acronym letters.
         *Added tabindex=0 to all elements
@@ -111,3 +113,12 @@ To be Added
     *Changed unnessecary </img> at the end of #benefit-cost img and replaced with />
     *Removed comma in first sentence of Online Reputation Management 
     **Need to Run Website through WAVE Web Accessibility Evaluation Tool once it is Live**
+
+**0.7 Full Testing and Clean-up**
+
+    *Removed commented-out CSS (Can be found in oldcss.md)
+    *Added Comments to CSS sections as needed
+    *Removed Clear Functions from CSS.
+    *Moved Media Queries into Proper sections in CSS
+    *Broke all image links to make sure alt text was showing up correctly
+    

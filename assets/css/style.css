@@ -1,13 +1,4 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
-
-body {
-    background-color: #d9dcd6;
-}
-
+/* Blue Header Bar */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,16 +6,19 @@ body {
     color: #ffffff;
 }
 
+/* Main Company Name Title */
 .header h1 {
     display: inline-block;
     font-size: 48px;
     color: #ffffff;
 }
 
+/* Color-shift for seo in Company Name Title */
 .header h1 .seo {
     color: #b3b3b3;
 }
 
+/* Full Link List */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -33,192 +27,24 @@ body {
     font-size: 20px;
 }
 
-/* .header div ul {
-    list-style-type: none;
-} */
-
+/* Displays Links in a Row */
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Hovering over Links changes them to black */
 .header div ul li a:hover {
     color:black
 }
 
+/* Removes Underline from Links */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
-/* p {
-    font-size: 16px;
-} */
-
-.hero {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg" );
-    background-size: cover;
-    background-position: center;
-}
-
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
-.content section{
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-/* #search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-#online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-#social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-} */
-
-.content img{
-    max-height: 200px;
-}
-/* #search-engine-optimization img {
-    max-height: 200px;
-}
-
-#online-reputation-management img {
-    max-height: 200px;
-}
-
-#social-media-marketing img {
-    max-height: 200px;
-} */
-
-.content h2{
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/* #search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-#online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-#social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-} */
-
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 940px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.benefits section{
-    margin-bottom: 32px;
-}
-
-/* #benefit-brand{
-    margin-bottom: 32px;
-} */
-
-/* #benefit-cost{
-    margin-bottom: 32px;
-} */
-
-.benefits h3 {
-    margin-bottom: 10px;
-    text-align: center;
-    font-size: 25px;
-}
-
-/* #benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-} */
-
-/* #benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-} */
-
-.benefits img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/* #benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-} */
-
-/* #benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-} */
-
-.footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
-
-.footer h4 {
-    font-size: 20px;
-}
-
+/* Changes Links in Header bar to Vertical List when Screen Size is too Small */
 @media screen and (max-width: 1020px) {
     .header div ul li {
         display:block;
@@ -228,8 +54,103 @@ a {
     padding-top: 1px;
     }
 }
+
+/* Main Picture */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg" );
+    background-size: cover;
+    background-position: center;
+}
+
+/* Sets Pictures on Left Side in Content Cards */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* Sets Picture on Right Side in Content Cards */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Main Content Panel Container */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* Attributes for Every Card Element in Content */
+.content section{
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Sets Image size in Content Cards */
+.content img{
+    max-height: 200px;
+}
+
+/* Sets Heading Size and Location in Comment Cards */
+.content h2{
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Right Sidebar Primary Formatting */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    float: right;
+    width: 20%;
+    height: 940px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Sets Margin Between each Section of Right Sidebar */
+.benefits section{
+    margin-bottom: 32px;
+}
+
+/* Set Attributes for every Heading in Right Sidebar */
+.benefits h3 {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+
+/* Sets Attributes for Every Image in Sidebar */
+.benefits img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Changes sidebar Font Size to fit when Screen gets too small */
 @media screen and (max-width: 1235px) {
     .benefits{
         font-size:small;
     }
+}
+
+/* Primary Footer Attibutes */
+.footer {
+    padding: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* Footer Header size */
+.footer h4 {
+    font-size: 20px;
 }
