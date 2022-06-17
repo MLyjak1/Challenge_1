@@ -92,3 +92,11 @@ To be Added
     *Added Titles to Images in Content Section
     *Added Titles to Icons in Benefit Section
     *Contrast of Benefit Section was not acceptable for Industry Standards, modified background color to the same as Content Section
+
+**0.5 Media Query and Mobile Optimization**
+    *Tested website at various widths
+        *Issue found with .header links and .benefits container
+    *Added Media Query for .header div ul li element to be vertical when under 1020 pixel width
+        *Added padding to .header div element to get it close to center
+    *Changed .benefits height to static 940px to match .content height
+    *Added Media Query for .benefits element to make text smaller to fit inside container
