@@ -137,6 +137,7 @@ This page has not been formatted for printing.
     *Broke all image links to make sure alt text was showing up correctly
 
 **0.8 Check against Employer Requirements (Beta)**
+
 	    *Acessibility Standards+
 	    *Semantic HTML Elements+
 	    *Elements Follow Logical Structure+
