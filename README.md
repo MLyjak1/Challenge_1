@@ -57,7 +57,7 @@ To be Added
     *Changed <section class=*> to relevant element identifiers
     *Added <Figure> around main image "Hero"
 
-**0.2 Search Engine Optimization and Site Flow**
+**0.2 Search Engine Optimization and Site Flow Changelog:**
     
     *Added <alt> tags to images in <Main>
     *Added <alt> tags to icons in <aside>
@@ -67,7 +67,7 @@ To be Added
     *Added hover functionality to <header> links
     *Links in <header> now direct to sections in <main>
 
-**0.3 CSS Clean-up and Optimization**
+**0.3 CSS Clean-up and Optimization Changelog:**
 
     *Added reset.css as industry standard
     *Added "seo" class and <span> back in to HTML code
@@ -87,16 +87,27 @@ To be Added
             *Added font-size:25 px to h3 for industry standard decreasing header sizes
         *Consolidated #benefit-<IDs> img to single command under .benefits img <class>
 
-**0.4 Accessibility Modifications and Title Tag Additions**
+**0.4 Accessibility Modifications and Title Tag Additions Changelog:**
 
     *Added Titles to Images in Content Section
     *Added Titles to Icons in Benefit Section
     *Contrast of Benefit Section was not acceptable for Industry Standards, modified background color to the same as Content Section
 
-**0.5 Media Query and Mobile Optimization**
+**0.5 Media Query and Mobile Optimization Changelog:**
     *Tested website at various widths
         *Issue found with .header links and .benefits container
     *Added Media Query for .header div ul li element to be vertical when under 1020 pixel width
         *Added padding to .header div element to get it close to center
     *Changed .benefits height to static 940px to match .content height
     *Added Media Query for .benefits element to make text smaller to fit inside container
+
+**V0.6 Screen Reader Testing**
+    *Tested with Google Chrome Screen Reader Extension
+        *Added periods between acronym letters.
+        *Added tabindex=0 to all elements
+        **Passed - All Appropriate Elements Read**
+    *Tested with Windows Screen Reader
+        **Passed**
+    *Changed unnessecary </img> at the end of #benefit-cost img and replaced with />
+    *Removed comma in first sentence of Online Reputation Management 
+    **Need to Run Website through WAVE Web Accessibility Evaluation Tool once it is Live**
