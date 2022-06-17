@@ -114,11 +114,24 @@ To be Added
     *Removed comma in first sentence of Online Reputation Management 
     **Need to Run Website through WAVE Web Accessibility Evaluation Tool once it is Live**
 
-**0.7 Full Testing and Clean-up**
+**0.7 Full Testing and Clean-up (Alpha)**
 
     *Removed commented-out CSS (Can be found in oldcss.md)
     *Added Comments to CSS sections as needed
     *Removed Clear Functions from CSS.
     *Moved Media Queries into Proper sections in CSS
     *Broke all image links to make sure alt text was showing up correctly
-    
+
+**0.8 Check against Employer Requirements (Beta)**
+	    *Acessibility Standards
+	    *Semantic HTML Elements
+	    *Elements Follow Logical Structure
+	    *Accessible alt Attributes
+	    *Heading Attributes in sequential order
+	    *Concise, Descriptive Titles
+	    *Links Funtion
+	    *CSS Selectors and Properties Consolidated and Organized
+	    *CSS File Properly Commented
+	    *Descriptive Commit Messages
+	    *README.md includes description screenshot and link to deployed application
+        *Changed hero height to 100em
